@@ -430,6 +430,14 @@ table.gst-table tbody tr td:nth-child(2) {
 	margin-left: 40px;
 }
 
+.receipts .receipt .footnote {
+	margin: 2em 0 0 0;
+}
+
+.receipts .receipt .footnote ul li {
+	margin: 0 0 1em 0;
+}
+
 .required,
 .requirederror {
 	margin-top: 50px;
@@ -1181,6 +1189,11 @@ input[type="checkbox"]:checked:before {
 	border-color: #0067C6;
 	box-shadow: inset 0px 0px 0px 1px #fff;
 	background: #0067C6;
+}
+
+.CCRAAdd .receipts .column.divHide,
+.CCRARemove .receipts .column.divHide {
+	display: none;
 }
 
 @media only screen and (max-width: 767px) {
